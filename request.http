@@ -1,0 +1,18 @@
+GET http://localhost:8080/number/random
+
+###
+
+GET http://localhost:8080/number/next
+
+###
+
+POST http://localhost:8080/number/set
+Content-Type: application/json
+
+{
+  "firstLetter": "Х",
+  "numbers": "999",
+  "letters": "ХХ"
+}
+
+###
